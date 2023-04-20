@@ -19,6 +19,8 @@ Nous allons ensuite récupérer les metadata via le endpoint d'API fourni, rajou
 
 La partie Front n'étant pas faite, voici comment j'aurais imaginé la chose avec un rapide schéma:
 
+![Front](/front.png?raw=true)
+
 Une première version aurait une barre de recherche. L'utilisateur rentre une address ETH valide et peut ensuite voir sur l'interface les informations renvoyées par le backend.
 
 Une deuxieme version plus secure consisterait à avoir un bouton connect et d'avoir une authentification via metamask ou walletConnect pour que seul le owner d'une address puisse savoir le Nefturian associé à son adresse. Cette seconde version entrainera des modification coté backend également.
